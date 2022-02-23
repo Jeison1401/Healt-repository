@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:test_app/Screens/Items/items.dart';
 import 'package:test_app/Screens/Profile/components/maindrawer.dart';
 
 import '../../constants.dart';
@@ -22,6 +23,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
         backgroundColor: kPrimaryColor,
         child: MainDrawer(),
       ),
+      body: ItemsPage(),
     );
   }
 }
