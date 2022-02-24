@@ -111,7 +111,7 @@ class _PomodoroState extends State<Pomodoro> {
                                 child: Column(
                                   children: const <Widget>[
                                     Text(
-                                      "Study Time",
+                                      "Work Time",
                                       style: TextStyle(
                                           fontSize: 25.0,
                                           fontWeight: FontWeight.bold),

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:test_app/Screens/Alimentation/alimentation.dart';
 import 'package:test_app/Screens/Notifications/notifications.dart';
 import 'package:test_app/Screens/Pomodoro/pomodoro_screen.dart';
 
@@ -108,7 +109,12 @@ class _ItemsPageState extends State<ItemsPage> {
                     ),
                   ),
                   GestureDetector(
-                    onTap: () {},
+                    onTap: () {
+                      Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                              builder: (context) => Alimentation()));
+                    },
                     child: Container(
                       margin: EdgeInsets.only(bottom: 18.0),
                       decoration: BoxDecoration(
